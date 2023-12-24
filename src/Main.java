@@ -79,7 +79,7 @@ public class Main
                                 neironList.add(new Neiron(sinapsList.get(a).ToNeiron(F)+sinapsList.get(a+kolvoneiron).ToNeiron(U),1,a));//создаем нейрон и передаем в него сразу все входные данные
 
                     }
-
+//
                     double sumvhod10x=0;
                     for (int a=0; a<kolvoneiron; a++)
                     {
